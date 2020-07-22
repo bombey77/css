@@ -1,0 +1,26 @@
+/*The following example formats the first letter of the text in <p> element with id=myText*/
+p#myText:first-letter {
+    color: red;
+}
+/*The following example formats the first line of the text in <p> element with myClass class*/
+p.myClass:first-line {
+    color: #86d236;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: overline;
+    /*text-decoration: none;*/
+    /*text-decoration: underline;*/
+    /*text-decoration: line-through;*/
+    /*text-decoration: blink;*/
+}
+
+h1:active {
+    color: #12932e;
+}
+
+a:visited {
+    color: #511dc7;
+}
