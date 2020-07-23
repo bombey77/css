@@ -1,0 +1,64 @@
+body {
+    background-color: #e3dac0;
+}
+
+#firstBlockId {
+    border: 3px dashed green;/*толщина обводки 3px, форма - пунктирная, зеленого цвета*/
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 50px;/*наружный отступ*/
+    padding: 10px;/*внутренний отступ*/
+    border-radius: 10px;
+}
+
+#secondBlockId {
+    border: 3px red double;/*толщина обводки 3px, форма - две линии, красного цвета*/
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+#thirdBlockId {
+    border: 3px red groove;/*толщина обводки 3px, форма - вдавленная линия, красного цвета*/
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+#fourthBlockId {
+    border: 3px red ridge;/*толщина обводки 3px, форма - выпуклая линия, красного цвета*/
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+#insetBlockId {
+    border: 3px grey inset;/*толщина обводки 3px, форма - блок будет вдавленным, серого цвета*/
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#outsetBlockId {
+    border: 3px grey outset; /*толщина обводки 3px, форма - блок будет выпуклым, серого цвета*/
+    border-bottom: 3px dashed black;/*нижняя обводка будет пунктирной и черного цвета*/
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
