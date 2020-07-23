@@ -1,0 +1,24 @@
+#myId {
+    font-size: 20px;
+    /*font-size: 1.3em; размер*/
+    font-weight: bold;/*толщина*/
+    /*font-weight: 900; толщина*/
+    font-family: "Ubuntu Mono", "sans-serif";/*шрифт, sans-serif - если отсутствует такой шрифт,
+    то будет использоваться максимально похожий*/
+    text-decoration: underline;/*Текст будет подчеркнутым*/
+    text-align: center;
+    /*text-align: justify; текст будет заполнен по-ширине*/
+}
+
+.myClass {
+    text-indent: 1.3em; /*Абзац*/
+    text-transform: capitalize; /*Каждая первая буква слова будет большой*/
+}
+
+.uppercaseClass {
+    text-transform: uppercase; /*все слова с большой буквы*/
+}
+
+.wordSpaceClass {
+    line-height: 150%; /*отступы между строчками*/
+}
