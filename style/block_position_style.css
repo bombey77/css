@@ -1,0 +1,95 @@
+* {
+    background-color: #e3dac0;
+    margin: 0px;
+}
+
+header {
+    width: calc(100% - 6px);/*при добавлении border добавляется 6px и я их тут вычитаю*/
+    height: 70px;
+    background-color: #807c82;
+    border: 3px yellow outset;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+}
+
+article {
+    position: relative;/*указывает на отсчет смещения от точки на которой находился блок*/
+    left: 300px;/*смещение слева*/
+    top: 20px;/*смещение сверху*/
+    height: 100px;
+    width: 40%;
+    background-color: yellow;
+    border: 3px red ridge;
+}
+
+aside {
+    position: absolute;/*указывает на отсчет смещения от начала документа, если не указывать left, top то блок будет стоять на исходной точке*/
+    left: 200px;
+    top: 300px;
+    height: 100px;
+    width: 40%;
+    background-color: #53bb3b;
+    border: 3px red ridge;
+    z-index: 1;/*устанавливает какой элемент находится поверх другого*/
+}
+
+#myId {
+    position: fixed;/*этот блок будет двигаться вместе с колесом мышки  */
+    background-color: yellow;
+    border: 3px red ridge;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.myClass {
+    position: relative;/*этот блок будет двигаться вместе с колесом мышки  */
+    background-color: yellow;
+    border: 3px red ridge;
+    height: 100px;
+    width: 45%;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;/*при добавлении border добавляется 6px и я их вычитаю этой строчкой*/
+    background-color: #807c82;
+    border: 3px yellow outset;
+    position: absolute;
+}
+
+.myMargin {
+    background-color: #511dc7;
+    border: 4px yellow solid;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;/*с флагом авто блок автоматически выравнивается по центру*/
+    z-index: 0;
+}
+
+.parent {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.block1 {
+    background-color: #807c82;
+    border: 3px azure solid;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+}
+
+.block2 {
+    background-color: #807c82;
+    border: 3px azure solid;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    right: 0px;}
