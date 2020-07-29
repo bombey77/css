@@ -1,0 +1,42 @@
+.myClass2 {
+    visibility: hidden /*прячет элемент, но место не пропадает (строка останется пустой)*/
+}
+
+.myClass3 {
+    display: none /*прячет элемент, и место выделенное под него исчезает*/
+}
+
+.myClass5, .myClass6, .myClass7 {
+    display: list-item /*элементы выстроятся как список*/
+}
+
+.myBlock1 {
+    background-color: #807c82;
+    border: #511dc7 3px solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    overflow: auto;/*текст который выходит за рамки блока будет скрыт, и добавятся полосы прокрутки при необходимости*/
+}
+
+.myBlock2 {
+    background-color: #807c82;
+    border: #511dc7 3px solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    overflow: hidden;/*текст который выходит за рамки блока будет скрыт, и полосы прокрутки будут отсутствовать*/
+}
+
+.myBlock3 {
+    background-color: #807c82;
+    border: #511dc7 3px solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    overflow: scroll;/*текст который выходит за рамки блока будет скрыт, и добавятся полосы прокрутки при необходимости как у auto*/
+}
+
